@@ -83,3 +83,19 @@ Open smart_research_agent.html using VS Code Live Server.
 | ModuleNotFoundError | Run pip install -r requirements.txt |
 | API key error | Set ANTHROPIC_API_KEY in terminal |
 | No results found | Try a different search query |
+
+
+
+@"
+---
+title: Smart Research Agent
+emoji: 🔍
+colorFrom: blue
+colorTo: cyan
+sdk: docker
+pinned: false
+---
+
+# Smart Web Research AI Agent
+An AI-powered research assistant using Groq LLaMA 3.3
+"@ | Out-File -FilePath "README.md" -Encoding utf8
